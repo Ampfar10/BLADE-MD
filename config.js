@@ -3,19 +3,19 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348059540212'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '27672633675'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
-global.email = 'maxdavid126@gmail.com'
-global.github = 'https://github.com/Bladeh4x/BLADE-MD'
+global.email = '@gmail.com'
+global.github = ''
 global.location = 'Lahore pakistan'
-global.gurl = 'https://instagram.com/alex_david/' // add your username
-global.sudo = process.env.SUDO || "2348069553870"
-global.devs = '2348069553870'
-global.website = 'https://github.com/Bladeh4x/BLADE-MD' //wa.me/+91000000000000
+global.gurl = 'P A I N ' // add your username
+global.sudo = process.env.SUDO || "27672633675"
+global.devs = '27672633675'
+global.website = '' //wa.me/+91000000000000
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/3f3ae4aace2d012c11509.jpg'
 module.exports = {
-  sessionName: process.env.SESSION_ID || "",      //Put Your Session Id Here
+  sessionName: process.env.SESSION_ID || "eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiRUk2b0p5TlVEajlCTmJiMHM1eWg0bFNOVmRPb0pEQ2YzVFZLbGxkYVVFOD0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiNElwUWdrdkNkNG9kOHVUeHJ6T1BVbXg0SHIwS0xRREN6V0UwMWRDbG9Xdz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJPRDd2VkV5alFEVVNkclZHRU9kcHhVVnh1bjdWeUZBWFU2Wk9oT296Um1VPSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI2RGxnb3NhaHVjV3lVRmxOcFpRYnMzUHprUjVGUHIwRm9GVEx5Q3NxZXc0PSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IlVNQlFyYTg4alo1QlFBWXJwQnNPZVdhTVIyczRwb0hwUDl5OE50SUhQRzg9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IjBPTDlHM3lIaHdNUXQrSXoyN0FFU0VlcGNuNEQrWXd0b2xueXduOXk2a3M9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiT0tnZnJMaFlFeCtLR0VRUTQrSW9vMTJyMmhReVN0VFJIN25vc21DU2pHTT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoibWE5SHozaWpRQ29zUmFNRUFwZXMzZEFDQTRzRXR3dHIxeThja3FyNStWST0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IngwSE1WM0dadUZNVkVZQVNORVk4Zkl0RDBuWjVabWQ3eHFVRkl2UDVjUmxNb1MvTzJ2cUZOMXVCVWFMVTY3M0Fpb0s2TFkraDBVK0tWM0djNWFnMkJBPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6MTksImFkdlNlY3JldEtleSI6Imp0ZVU5SlRhYmVGTFZzVFlGdzkvMUFITnpWeXZpSzlCSkJNNEo1ejFaaHM9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IjNEM3cwb18yU1hPa2h1RUswYlVfU2ciLCJwaG9uZUlkIjoiMjcwMzc4MzUtM2I2Mi00ZWZjLTljY2ItNmI0YjZlYTVmYzE0IiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6ImpLUVljSk5mSnpFek9rTmFxVUdtME1UN1pEST0ifSwicmVnaXN0ZXJlZCI6ZmFsc2UsImJhY2t1cFRva2VuIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiYUdpSjFtQ3AxcWRTYmEzYnNwTnlCL1FMNXZNPSJ9LCJyZWdpc3RyYXRpb24iOnt9LCJhY2NvdW50Ijp7ImRldGFpbHMiOiJDSzZxMkxBRkVKQ0NnN0lHR0FJZ0FDZ0EiLCJhY2NvdW50U2lnbmF0dXJlS2V5IjoiVnBSVi9saVZOaTB0TCs2OEg2Nk54ZmZIeTFRTW1mWEZueTZVcXgxRmdWUT0iLCJhY2NvdW50U2lnbmF0dXJlIjoiMWhVa08zNXNvb0ZIU3BDLzF6VGxmcnhiTVFtSm02Y2dEU2R4RkVpNFdQZGdZQ01WRzE4S1htcFZsR0NoZ2YwMWRmZVk2Nzh3M1J6TFlwMWhtbXd2QXc9PSIsImRldmljZVNpZ25hdHVyZSI6IlVPeUFEYncxNWNiejIrWmRHdSsvNGNMWTRwMG8wWUZsZWZyQm9PR09jLzhwODl2MlU3aFZTdEI3ZU9aU0dxaXY4T2NqaVdza1ZkQUNMMTNKbjVockRBPT0ifSwibWUiOnsiaWQiOiIyNzY3MzI5OTIyODoyQHMud2hhdHNhcHAubmV0IiwibmFtZSI6Ii4uIn0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjI3NjczMjk5MjI4OjJAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCVmFVVmY1WWxUWXRMUy91dkIrdWpjWDN4OHRVREpuMXhaOHVsS3NkUllGVSJ9fV0sInBsYXRmb3JtIjoiYW5kcm9pZCIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxNTUxOTc2NCwibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFNRkIifQ==",      //Put Your Session Id Here
   author:  process.env.PACK_AUTHER ||  'BLADE BOT',
   packname:  process.env.PACK_NAME || 'MADE BY ALEX DAVID',
   
